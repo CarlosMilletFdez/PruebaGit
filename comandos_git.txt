@@ -12,7 +12,7 @@ git config --list
 git remote add origin
 git branch -M main
 
-git push -u origin main
+git push -u origin main para ir de local a remoto
 
 iniciar proxecto:
 git init
@@ -23,12 +23,24 @@ git add .
 subir o estado actual do proxecto: como unha copia de seguridade
 git commit -m
 
-git status -s
+git status -s:
 
-git log --oneline
+git log --oneline:
 
 $ git remote add origin https://github.com/CarlosMilletFdez/Prueba_git2.git
 
-$ git branch -M main
+$ git branch -M main:
 
-$ git push -u origin main
+$ git push -u origin main: para subir de local a remoto
+
+cat + "nome documento": permite ver o contido do documento
+
+git pull: para actualizar o documento de remoto a local
+
+git tag
+
+git push -tag 
+
+git clone +  url para recuperar arquivos borrados en local dende o repositorio
+
+ls: ver o contido da rama na que estamos

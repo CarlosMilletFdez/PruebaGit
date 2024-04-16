@@ -44,3 +44,9 @@ git push -tag
 git clone +  url para recuperar arquivos borrados en local dende o repositorio
 
 ls: ver o contido da rama na que estamos
+
+git branch "nombre" crear unha rama
+
+git branch: ver as ramas
+
+git checkout + "nombre rama": para moverse
